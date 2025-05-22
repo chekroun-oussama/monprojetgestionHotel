@@ -163,5 +163,7 @@ WHERE id_Chambre NOT IN (
   WHERE R.Date_arrivee <= '2025-07-10'
     AND R.Date_depart >= '2025-07-01'
 );
-
+-- f.Qu’est ce que SQLite, quelle différence avec MySQL?
+--f.1. SQLite est un moteur de base de données relationnelle léger, sans serveur, qui stocke les données dans un fichier unique
+--f.2. SQLite est parfait pour des bases légères et autonomes et MySQL est adapté aux applications critiques et multi-utilisateurs donc Si vous développez une app mobile ou un petit projet, SQLite est idéal. Pour un site web avec beaucoup d’utilisateurs, MySQL (ou PostgreSQL) est préférable.
 
